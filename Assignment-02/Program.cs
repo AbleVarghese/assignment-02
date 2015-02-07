@@ -33,7 +33,6 @@ namespace Assignment_02
 
             if (hero != "")
             {
-
                 SuperHero superhero = new SuperHero(hero);
                 superhero.showPowers();
                 superhero.fight();
@@ -46,14 +45,6 @@ namespace Assignment_02
 
             Console.WriteLine("\nPlease press enter to EXIT");
 			Console.ReadKey();
-
-
-            
-                  
-            {
-
-            }
-
 
 		}
 	}
