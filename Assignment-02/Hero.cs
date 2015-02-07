@@ -50,7 +50,7 @@ namespace Assignment_02
 
             }
             else
-                Console.WriteLine("\nOh ooo... Our hero {0} missed the hit this time..\nWe should make him try again. \n", this.name);
+                Console.WriteLine("\nOh ooo... Our hero {0} missed the hit this time..\nWe should let our hero try again. \n", this.name);
 
         }
 
