@@ -21,10 +21,14 @@ namespace Assignment_02
 
             Console.Write("Please enter the name of the hero: ");
             hero=Console.ReadLine();
-		    // Here an object is created for the Class called Hero, and the Object is named as 
-			// Hero StrongHeros = new Hero(hero);
+		     //Here an object is created for the Class called Hero, and the Object is named as StrongHeros
+			 Hero StrongHeros = new Hero(hero);
+
+
             SuperHero ourhero = new SuperHero(hero);
-           // ourhero.generateRandomPowers();
+            ourhero.showPowers();
+            StrongHeros.fight();
+        
 /*
 			// Here the fight() method in class Hero is called for displaying the fight result.
 			StrongHeros.fight();

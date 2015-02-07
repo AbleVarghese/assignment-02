@@ -15,7 +15,6 @@ namespace Assignment_02
         
         public SuperHero(string name): base("Able")
         {
-      
            generateRandomPowers();
         }
 
@@ -45,12 +44,16 @@ namespace Assignment_02
                }
            }
 
-        //Printing the superPowers on to the screen.
-           for(int index=0;index<3;index++)
-           Console.WriteLine("\nSuper Power No. "+(index+1)+" is: {0}\n", superPowers[index]);
-       
        
 
+       }
+
+       public void showPowers()
+       {
+
+           //Printing the superPowers on to the screen.
+           for (int index = 0; index < 3; index++)
+               Console.WriteLine("\nSuper Power No. " + (index + 1) + " is: {0}\n", superPowers[index]);
        }
 
 
