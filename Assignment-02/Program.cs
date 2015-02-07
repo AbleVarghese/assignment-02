@@ -17,17 +17,19 @@ namespace Assignment_02
 	{
 		static void Main(string[] args)
         {
-            string hero;
+       //     string hero;
 
-            Console.Write("Please enter the name of the hero: ");
-            hero=Console.ReadLine();
-		     //Here an object is created for the Class called Hero, and the Object is named as StrongHeros
-			 Hero StrongHeros = new Hero(hero);
+       //     Console.Write("Please enter the name of the hero: ");
+        //    hero=Console.ReadLine();
+		  
+            //Here an object is created for the Class called Hero, and the Object is named as StrongHeros
+		
+         //   Hero StrongHeros = new Hero("Able");
 
 
-            SuperHero ourhero = new SuperHero(hero);
+            SuperHero ourhero = new SuperHero("Able");
             ourhero.showPowers();
-            StrongHeros.fight();
+            ourhero.fight();
         
 /*
 			// Here the fight() method in class Hero is called for displaying the fight result.
